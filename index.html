@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="rollDice()">
+    <div class="container">
+        <h1>Dice Roller</h1>
+        <div id="environment">Environment: <span id="env">Node Test</span> | Version: 2.04</div>
+        <div class="dice">
+            <input type="text" id="dice1" readonly>
+            <input type="text" id="dice2" readonly>
+        </div>
+        <button id="rollButton" autofocus onclick="rollDice()">Roll Dice</button>
+        <div class="instructions">
+            <h2>Instructions</h2>
+            <p>Click the "Roll Dice" button or press Enter to roll the dice.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
