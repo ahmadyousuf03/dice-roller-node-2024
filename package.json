@@ -1,17 +1,12 @@
 {
-  "name": "app-service-hello-world",
-  "description": "Simple Hello World Node.js sample for Azure App Service",
-  "version": "0.0.1",
-  "private": true,
-  "license": "MIT",
-  "author": "Microsoft",
+  "name": "dice-roller-node-2024",
+  "version": "1.0.0",
+  "description": "A simple dice roller application.",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.21.0"
-  },
-  "main": "index.js",
-  "keywords": []
+    "express": "^4.18.2"
+  }
 }
